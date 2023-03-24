@@ -6,6 +6,5 @@ form.addEventListener("sumbit", surveySubmit)
 function surveySubmit (e) {
 e.preventDefault();
 
-
-
 }
+
