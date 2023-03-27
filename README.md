@@ -19,7 +19,7 @@ An application that uses a survey with data imput, that will guide a new program
 
 known bugs:
 A lot.
-There has not yet been enough data imput to gather results to run the JS properly.
+There has not yet been enough data imput to gather results to run the JS properly. Actively working on de-bugging.
 
 
 ## License
