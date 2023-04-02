@@ -1,87 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="stylesheet" href="css/styles.css" type="text/css">
-	<script src="scripts.js"></script>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <script src="scripts.js"></script>
 
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>What coding language is right for you?</h1>
 
-<title>Document</title>
-</head>
-<body>
-	<h1>What coding language is right for you?</h1>
+    <form id="surveyDrop">
+      <p>
+        Are you thinking about getting into coding? Well if you are, please be
+        more prepared than me. In this app we will explore what program language
+        could be right for you. Lets start with a brief survey
+      </p>
+      <label> Which option best describes your current role?</label>
+      <select id="dropdown">
+        <option>Select current role</option>
+        <option let value="Student">Student</option>
+        <option let value="Full Time Job">Full Time Job</option>
+        <option let value="Full Time learner">Full Time Learner</option>
+        <option let value="Prefer not to say">Prefer not to say</option>
+        <option let value="Other">Other</option>
+      </select>
 
-	<form>
-		<p>Are you thinking about getting into coding? Well if you are, please be more prepared than me. In this app we will explore what program language could be right for you. Lets start with a brief survey</p>
-		<label>
-			Which option best describes your current role?
-			<select id="dropdown">
-				<option>Select current role</option>
-				<option let value="Student">Student</option>
-				<option let value="Full Time Job">Full Time Job</option>
-				<option let value="Full Time learner">Full Time Learner</option>
-				<option let value="Prefer not to say">Prefer not to say</option>
-				<option let value="Other">Other</option>
-			</select>
-			
-			 <p>
-				<label>What is your favorite color?
-				<select id="dropdown">
-					<option const>select favorite color</option>
-					<option let value="red">red</option>
-					<option let value="blue">blue</option>
-					<option let value="green">green</option>
-					</select>
-				</p>
-					<label>What is your favorite animal?
-					<select id="dropdown">
-						<option const>select favorite animal</option>
-						<option let value="dog">dog</option>
-						<option let value="cat">cat</option>
-						<option let value="bird">bird</option>
-						</select>
+      <p>
+        <label>What is your favorite color? </label>
+        <select id="dropdown">
+          <option const>select favorite color</option>
+          <option let value="red">red</option>
+          <option let value="blue">blue</option>
+          <option let value="green">green</option>
+        </select>
+      </p>
+      <p>
+        <label> What is your favorite animal?</label>
+        <select id="dropdown">
+          <option const>select favorite animal</option>
+          <option let value="dog">dog</option>
+          <option let value="cat">cat</option>
+          <option let value="bird">bird</option>
+        </select>
+      </p>
+      <p>
+        <label> What is your favorite car?</label>
+        <select id="dropdown">
+          <option const>select favorite car</option>
+          <option let value="coupe">coupe</option>
+          <option let value="Suv">Suv</option>
+          <option let value="Truck">Truck</option>
+        </select>
+      </p>
+      <label>Who is your favorite ninja turtle?</label>
+      <select id="dropdown">
+        <option const>select favorite ninja turtle</option>
+        <option let value="leo">Leo</option>
+        <option let value="Raph">Raph</option>
+        <option let value="Don">Don</option>
+      </select>
+      <div>
+        <br />
+      </div>
+			<input type="submit" onclick="onFormSubmit()">click for emotional trauma</button>
+    </form>
 
-					</p>
-					<label> What is your favorite car?</label>
-					<select id="dropdown">
-						<option const>select favorite car</option>
-						<option  let value="coupe">coupe</option>
-						<option  let value="Suv">Suv</option>
-						<option  let value="Truck">Truck</option>
-						</select>
-					</p>
-					<label>Who is your favorite ninja turtle?
-					<select id="dropdown">
-						<option const>select favorite ninja turtle</option>
-						<option let value="leo">Leo</option>
-						<option let value="Raph">Raph</option>
-						<option let value="Don">Don</option>
-						</select>
-						<div>
-							<br>
-						<button const  type="submit" value="">click for emotional trauma</button></div>
-					
-						
-						
-					</div>
-
-					
-						
-</form>
-
-
-<div id="" class="hidden"> 
-	<p> 
-</div>
-
-<div id="" class="hidden"> 
-	<p></p>
-</div>
-
-<div id="" class="hidden"> 
-	<p></p>
-</div>
-
-	
-    
-</body>
+    <div id="" class="hidden">
+      <p>
+        Here is what language is correcrt for you based on your survey
+        submission:
+      </p>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+    </div>
+  </body>
 </html>
