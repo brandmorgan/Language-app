@@ -23,7 +23,7 @@ function surveySubmit(e) {
     language = "JS";
   }
   console.log(language);
-  htmlEl = document.getElementById("html");
-  cssEl = document.getElementById("css");
-  jsEl = document.getElementById("js");
+  answerEl = document.getElementById("answer");
+
+  answerEl.innerHTML = language;
 }
