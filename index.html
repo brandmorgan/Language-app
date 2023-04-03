@@ -15,8 +15,8 @@
         more prepared than me. In this app we will explore what program language
         could be right for you. Lets start with a brief survey
       </p>
-      <label> Which option best describes your current role?</label>
-      <select id="dropdown">
+      <label for="role">Which option best describes your current role?</label>
+      <select id="role">
         <option>Select current role</option>
         <option let value="Student">Student</option>
         <option let value="Full Time Job">Full Time Job</option>
@@ -26,8 +26,8 @@
       </select>
 
       <p>
-        <label>What is your favorite color? </label>
-        <select id="dropdown">
+        <label for="color">What is your favorite color? </label>
+        <select id="color">
           <option const>select favorite color</option>
           <option let value="red">red</option>
           <option let value="blue">blue</option>
@@ -35,8 +35,8 @@
         </select>
       </p>
       <p>
-        <label> What is your favorite animal?</label>
-        <select id="dropdown">
+        <label for="animal">What is your favorite animal?</label>
+        <select id="animal">
           <option const>select favorite animal</option>
           <option let value="dog">dog</option>
           <option let value="cat">cat</option>
@@ -44,16 +44,16 @@
         </select>
       </p>
       <p>
-        <label> What is your favorite car?</label>
-        <select id="dropdown">
+        <label for="car"> What is your favorite car?</label>
+        <select id="car">
           <option const>select favorite car</option>
           <option let value="coupe">coupe</option>
           <option let value="Suv">Suv</option>
           <option let value="Truck">Truck</option>
         </select>
       </p>
-      <label>Who is your favorite ninja turtle?</label>
-      <select id="dropdown">
+      <label for="turtle">Who is your favorite ninja turtle?</label>
+      <select id="turtle">
         <option const>select favorite ninja turtle</option>
         <option let value="leo">Leo</option>
         <option let value="Raph">Raph</option>
@@ -62,7 +62,7 @@
       <div>
         <br />
       </div>
-			<input type="submit" onclick="onFormSubmit()">click for emotional trauma</button>
+			<input type="submit"> click for emotional trauma</button>
     </form>
 
     <div id="" class="hidden">
@@ -70,9 +70,9 @@
         Here is what language is correcrt for you based on your survey
         submission:
       </p>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
+      <p id="html">HTML</p>
+      <p id="css">CSS</p>
+      <p id="js">JavaScript</p>
     </div>
   </body>
 </html>
